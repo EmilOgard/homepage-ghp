@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Home = () => {
     return (
         <div>
-            <h1>Home!</h1>
+            <h1>Hallo!</h1>
         </div>
     )
 }
