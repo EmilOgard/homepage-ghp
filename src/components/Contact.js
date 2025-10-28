@@ -4,7 +4,6 @@ function Contact() {
     return (
         <section id="contact" className="py-5 text-center">
             <Container>
-                <h2>Contact Me</h2>
                 <div className="d-flex justify-content-center flex-wrap mt-3">
                     {/* Email */}
                     <a href="mailto:emilogard@gmail.com" className="m-2">

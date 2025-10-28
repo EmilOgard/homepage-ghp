@@ -1,3 +1,4 @@
+import ThemeToggle from './ThemeToggle';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 function NavBar() {
