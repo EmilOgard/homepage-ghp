@@ -6,11 +6,15 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
+import React, { useState } from 'react';
 
 function App() {
+
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
   return (
-    <div>
-      <NavBar />
+    <div className={isDarkMode ? 'dark-theme' : 'light-theme'}>
+      <NavBar toggleDarkMode={() => setIsDarkMode(prev => !prev)} isDarkMode={isDarkMode} />
       <Home />
       <Contact />
       <About />

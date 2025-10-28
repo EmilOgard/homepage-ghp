@@ -1,9 +1,9 @@
-import ThemeToggle from './ThemeToggle';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container, Button } from 'react-bootstrap';
+import { FaMoon, FaSun } from 'react-icons/fa';
 
-function NavBar() {
+function NavBar({toggleDarkMode, isDarkMode}) {
   return (
-    <Navbar bg="dark" variant="dark" expand="md" fixed="top">
+    <Navbar expand="md" fixed="top">
       <Container>
         <Navbar.Brand href="#">Emil Øgård</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -14,6 +14,9 @@ function NavBar() {
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
+            <Button onClick={toggleDarkMode} variant={isDarkMode ? 'light' : 'dark'}>
+              {isDarkMode ? <FaSun /> : <FaMoon />}
+            </Button>
           </Nav>
         </Navbar.Collapse>
       </Container>
