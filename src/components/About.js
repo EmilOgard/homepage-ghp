@@ -4,7 +4,8 @@ function About() {
     return (
         <section id="about" className="py-5 text-center">
             <Container>
-                <p>Random info that I find relevant</p>
+                <p>28 år gammel programvare utvikler.</p>
+                <p> Fra Eidsvoll, bosatt i Oslo. Utdannet ved Universitetet i Oslo</p>
             </Container>
         </section>
     );

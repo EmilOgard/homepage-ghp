@@ -2,6 +2,7 @@ import './App.css';
 import Home from './components/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/Navbar';
+import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import About from './components/About';
@@ -12,8 +13,9 @@ function App() {
     <div>
       <NavBar />
       <Home />
-      <Projects />
       <About />
+      <Skills />
+      <Projects />
       <Contact />
       <Footer />
     </div>
