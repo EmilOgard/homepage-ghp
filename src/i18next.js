@@ -170,6 +170,27 @@ const resources = {
             view_project: "查看项目",
         }
     },
+    fr: {
+        translation: {
+            home: "Accueil",
+            about: "À propos",
+            skills: "Compétences",
+            projects: "Projets",
+            contact: "Contact",
+            email: "Email",
+            software_developer: "Développeur de logiciels",
+            age_info: "Développeur de logiciels de 28 ans.",
+            place_info: " D'Eidsvoll, vivant à Oslo.",
+            education: "Formé à l'Université d'Oslo.",
+            programming_languages: "Langages de programmation",
+            frameworks_libraries: "Frameworks et bibliothèques",
+            databases: "Bases de données",
+            tools_platforms: "Outils et plates-formes",
+            embedded: "Systèmes embarqués",
+            system: "Programmation système",
+            view_project: "Voir le projet",
+        }
+    },
 };
 
 i18next

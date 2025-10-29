@@ -18,6 +18,7 @@ function LanguageSwitcher() {
         { code: 'ru', name: 'Русский', country_code: 'RU' },
         { code: 'ar', name: 'العربية', country_code: 'SA' },
         { code: 'zh', name: '中文', country_code: 'CN' },
+        { code: 'fr', name: 'Français', country_code: 'FR' },
     ];
 
     const changeLanguage = (code) => {
