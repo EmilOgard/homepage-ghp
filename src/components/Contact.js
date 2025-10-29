@@ -1,13 +1,17 @@
 import { Container, Button } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 
 function Contact() {
+
+    const { t } = useTranslation();
+
     return (
         <section id="contact" className="py-2 text-center">
             <Container>
                 <div className="d-flex justify-content-center flex-wrap mt-3">
                     {/* Email */}
                     <a href="mailto:emilogard@gmail.com" className="m-2">
-                        <Button variant="primary">Email</Button>
+                        <Button variant="primary">{t('email')}</Button>
                     </a>
 
                     {/* GitHub */}
