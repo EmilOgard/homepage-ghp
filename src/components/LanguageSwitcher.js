@@ -15,6 +15,7 @@ function LanguageSwitcher() {
         { code: 'de', name: 'Deutsch', country_code: 'DE' },
         { code: 'ru', name: 'Русский', country_code: 'RU' },
         { code: 'ar', name: 'العربية', country_code: 'SA' },
+        { code: 'zh', name: '中文', country_code: 'CN' },
     ];
 
     const changeLanguage = (code) => {

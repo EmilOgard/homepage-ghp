@@ -149,6 +149,27 @@ const resources = {
             view_project: "عرض المشروع",
         }
     },
+    zh: {
+        translation: {
+            home: "首页",
+            about: "关于我",
+            skills: "技能",
+            projects: "项目",
+            contact: "联系",
+            email: "电子邮件",
+            software_developer: "软件开发人员",
+            age_info: "28岁软件开发人员。",
+            place_info: " 来自Eidsvoll，现居奥斯陆。",
+            education: "毕业于奥斯陆大学",
+            programming_languages: "编程语言",
+            frameworks_libraries: "框架和库",
+            databases: "数据库",
+            tools_platforms: "工具和平台",
+            embedded: "嵌入式系统",
+            system: "系统编程",
+            view_project: "查看项目",
+        }
+    },
 };
 
 i18next
