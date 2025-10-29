@@ -1,11 +1,13 @@
 import { Dropdown } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import ReactCountryFlag from "react-country-flag";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function LanguageSwitcher() {
     const { i18n } = useTranslation();
-    const [language, setLanguage] = useState(i18n.language || 'en');
+    const [language, setLanguage] = useState(() => {
+        return localStorage.getItem('language') || i18n.language || 'en';
+    });
 
     const languages = [
         { code: 'no', name: 'Norsk', country_code: 'NO' },
@@ -21,7 +23,12 @@ function LanguageSwitcher() {
     const changeLanguage = (code) => {
         i18n.changeLanguage(code);
         setLanguage(code);
+        localStorage.setItem('language', code);
     };
+
+    useEffect(() => {
+        i18n.changeLanguage(language);
+    }, [i18n, language]);
 
     const currentLanguage = languages.find(lang => lang.code === language);
 
