@@ -6,11 +6,23 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function App() {
 
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    const savedMode = localStorage.getItem('theme');
+    if (savedMode) {
+      return savedMode === 'dark';
+
+    } else {
+      return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+  });
+
+  useEffect(() => {
+    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+  }, [isDarkMode]);
 
   return (
     <div className={isDarkMode ? 'dark-theme' : 'light-theme'}>
