@@ -1,5 +1,6 @@
 import i18next from "i18next";
 import { initReactI18next } from "react-i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
 
 const resources = {
     no: {
@@ -194,11 +195,16 @@ const resources = {
 };
 
 i18next
+    .use(LanguageDetector)
     .use(initReactI18next)
     .init({
         resources,
-        lng: "en",
+        fallbackLng: "en",
         interpolation: { escapeValue: false },
+        detection: {
+            order: ['localStorage', 'navigator', 'htmlTag', 'path', 'subdomain'],
+            caches: ['localStorage'],
+        },
     });
 
 export default i18next;
