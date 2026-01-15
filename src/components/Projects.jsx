@@ -7,13 +7,13 @@ function Projects() {
 
     const projects = [
         {
-            name: "Homepage",
-            description: "This website. Built with React and Bootstrap.",
+            name: t('project_title_homepage'),
+            description: t('project_description_homepage'),
             link: "https://github.com/EmilOgard/homepage-ghp"
         },
         {
-            name: "Organizer App",
-            description: "Organizer app for personal use. Android native with Kotlin and local database.",
+            name: t('project_title_organizer'),
+            description: t('project_description_organizer'),
             link: "https://github.com/EmilOgard/Organizer"
         },
         {
@@ -33,8 +33,8 @@ function Projects() {
             <Container>
                 <h2 className="text-center mb-5">{t('projects')}</h2>
                 <div className="row">
-                    {projects.map((project) => (
-                        <div className="col-md-6 mb-4" key={project.name}>
+                    {projects.map((project, index) => (
+                        <div className="col-md-6 mb-4" key={index}>
                             <div className="card h-100">
                                 <div className="card-body">
                                     <h5 className="card-title">{project.name}</h5>

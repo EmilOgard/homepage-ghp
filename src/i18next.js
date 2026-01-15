@@ -22,6 +22,10 @@ const resources = {
             embedded: "Innebygde systemer",
             system: "System Programmering",
             view_project: "Se prosjekt",
+            project_title_organizer: "Organizer App",
+            project_description_organizer: "Organizer app for personlig bruk. Android native med Kotlin og lokal database.",
+            project_title_homepage: "Hjemmeside",
+            project_description_homepage: "Dette nettstedet. Laget med React og Bootstrap.",
         }
     },
     en: {
@@ -43,6 +47,11 @@ const resources = {
             embedded: "Embedded Systems",
             system: "System Programming",
             view_project: "View Project",
+            project_title_organizer: "Organizer App",
+            project_description_organizer: "Organizer app for personal use. Android native with Kotlin and local database.",
+            project_title_homepage: "Homepage",
+            project_description_homepage: "This website. Built with React and Bootstrap.",
+
         }
     },
     es: {
@@ -64,6 +73,10 @@ const resources = {
             embedded: "Sistemas Empotrados",
             system: "Programación de Sistemas",
             view_project: "Ver Proyecto",
+            project_title_organizer: "Organizer App",
+            project_description_organizer: "Organizer app para uso personal. Android nativo con Kotlin y base de datos local.",
+            project_title_homepage: "Página de inicio",
+            project_description_homepage: "Este sitio web. Construido con React y Bootstrap.",
         }
     },
     it: {
@@ -85,6 +98,10 @@ const resources = {
             embedded: "Sistemi Embedded",
             system: "Programmazione di Sistema",
             view_project: "Vedi Progetto",
+            project_title_organizer: "Organizer App",
+            project_description_organizer: "Organizer app per uso personale. Android nativo con Kotlin e database locale.",
+            project_title_homepage: "Homepage",
+            project_description_homepage: "Questo sito web. Costruito con React e Bootstrap.",
         }
     },
     de: {
@@ -106,6 +123,10 @@ const resources = {
             embedded: "Eingebettete Systeme",
             system: "Systemprogrammierung",
             view_project: "Projekt ansehen",
+            project_title_organizer: "Organizer App",
+            project_description_organizer: "Organizer app für den persönlichen Gebrauch. Native Android-Anwendung mit Kotlin und lokaler Datenbank.",
+            project_title_homepage: "Homepage",
+            project_description_homepage: "Diese Website. Erstellt mit React und Bootstrap.",
         }
     },
     ru: {
@@ -127,6 +148,10 @@ const resources = {
             embedded: "Встроенные системы",
             system: "Системное программирование",
             view_project: "Посмотреть проект",
+            project_title_organizer: "Organizer App",
+            project_description_organizer: "Organizer app для личного использования. Нативное приложение Android с Kotlin и локальной базой данных.",
+            project_title_homepage: "Homepage",
+            project_description_homepage: "Этот сайт. Создан с использованием React и Bootstrap.",
         }
     },
     ar: {
@@ -148,6 +173,10 @@ const resources = {
             embedded: "الأنظمة المدمجة",
             system: "برمجة النظام",
             view_project: "عرض المشروع",
+            project_title_organizer: "تطبيق المنظم",
+            project_description_organizer: "تطبيق منظم للاستخدام الشخصي. أندرويد أصلي مع كوتلن وقاعدة بيانات محلية.",
+            project_title_homepage: "الصفحة الرئيسية",
+            project_description_homepage: "هذا الموقع. تم بناؤه باستخدام React و Bootstrap.",
         }
     },
     zh: {
@@ -169,6 +198,10 @@ const resources = {
             embedded: "嵌入式系统",
             system: "系统编程",
             view_project: "查看项目",
+            project_title_organizer: "Organizer 应用",
+            project_description_organizer: "个人使用的Organizer应用。使用Kotlin和本地数据库的原生Android应用。",
+            project_title_homepage: "主页",
+            project_description_homepage: "这个网站。使用React和Bootstrap构建。",
         }
     },
     fr: {
@@ -190,6 +223,10 @@ const resources = {
             embedded: "Systèmes embarqués",
             system: "Programmation système",
             view_project: "Voir le projet",
+            project_title_organizer: "Organizer App",
+            project_description_organizer: "Application Organizer pour un usage personnel. Android natif avec Kotlin et base de données locale.",
+            project_title_homepage: "Page d'accueil",
+            project_description_homepage: "Ce site web. Construit avec React et Bootstrap.",
         }
     },
 };
