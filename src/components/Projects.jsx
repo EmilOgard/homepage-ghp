@@ -7,23 +7,23 @@ function Projects() {
 
     const projects = [
         {
-            name: "Project 1",
-            description: "Description for Project 1",
+            name: "Homepage",
+            description: "This website. Built with React and Bootstrap.",
+            link: "https://github.com/EmilOgard/homepage-ghp"
+        },
+        {
+            name: "Organizer App",
+            description: "Organizer app for personal use. Android native with Kotlin and local database.",
+            link: "https://github.com/EmilOgard/Organizer"
+        },
+        {
+            name: "TODO",
+            description: "TODO",
             link: "#"
         },
         {
-            name: "Project 2",
-            description: "Description for Project 2",
-            link: "#"
-        },
-        {
-            name: "Project 3",
-            description: "Description for Project 3",
-            link: "#"
-        },
-        {
-            name: "Project 4",
-            description: "Description for Project 4",
+            name: "TODO",
+            description: "TODO",
             link: "#"
         },
     ];
